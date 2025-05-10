@@ -1,0 +1,20 @@
+[project]
+name = "streaming-ai-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anaskhan", email = "anaskhangigyani7@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.14",
+]
+
+[project.scripts]
+streaming-ai-chatbot = "streaming_ai_chatbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
